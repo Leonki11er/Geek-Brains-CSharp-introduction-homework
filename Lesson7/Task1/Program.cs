@@ -20,16 +20,7 @@ Double[,] CreateRandomArray(int arrayColumns,int arrayRows, Double minRandom, Do
         }
     return array;
 }
-// Double PositiveRandomizer(Double minRandom, Double maxRandom)
-// {
-//     Random random = new Random();
-//     return random.NextDouble()*(maxRandom-minRandom)-minRandom;     
-// }
-// Double NegativeRandomizer(Double minRandom, Double maxRandom)
-// {
-//     Random random = new Random();
-//     return -random.NextDouble()*(minRandom-maxRandom)-maxRandom;     
-// }
+
 Double Randomizer(Double minRandom, Double maxRandom)
 {
     Random random = new Random();
