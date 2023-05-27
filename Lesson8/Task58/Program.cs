@@ -76,7 +76,6 @@ int SetArraySize()
 }
 
 int arraySize = SetArraySize();
-Console.WriteLine(arraySize);
 int[,] array = new int[arraySize, arraySize];
 PrintArray(FillArray(array));
 
